@@ -48,7 +48,7 @@ Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE
 ## Contato
 Se você tiver alguma pergunta ou precisar de assistência, sinta-se à vontade para entrar em contato conosco:
 
-- **Lucas Linhares**: [Seu Nome](https://github.com/Lucas-Linhar3s)
+- **Lucas Linhares**: [Lucas Linhares](https://github.com/Lucas-Linhar3s)
 
 ## Agradecimentos
 Agradecemos a todas as pessoas e projetos de código aberto que tornaram este projeto possível.
