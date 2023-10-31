@@ -37,3 +37,16 @@ func SignIn(ctx *gin.Context, opts UserCredentials) (interface{}, error) {
 
 	return result, nil
 }
+
+func Logount(ctx *gin.Context, bearerKey string) error {
+	var (
+		c    = &http.Client{}
+		repo = domain.NewRepository(c)
+	)
+
+	if err := repo.SignOut(bearerKey); err != nil {
+		return err
+	}
+
+	return nil
+}
