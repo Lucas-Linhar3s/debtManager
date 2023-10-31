@@ -80,5 +80,5 @@ func (r *repository) ResetPasswordForEmail(email string) error {
 
 // SignOut takes a userToken string as a parameter and returns an error.
 func (r *repository) SignOut(userToken string) error {
-	return nil
+	return r.Client.SigOut(userToken)
 }
